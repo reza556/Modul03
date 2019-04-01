@@ -1,0 +1,20 @@
+body{
+    background: white;
+    text-align: center;
+}
+.box{
+    width: 1150px;
+}
+.kotak1{
+    width: 300px;
+    height: 185px;
+    padding: 15px;
+    background:rgb(40, 180, 127);
+}
+.kotak2{
+    width: auto;
+    height: 185px;
+    margin:5px 5px 5px 5px;
+    background: rgb(212, 17, 17);
+    border-radius: 20px 20px 20px 20px;
+}

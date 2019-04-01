@@ -1,0 +1,37 @@
+.octagon {
+width: 200px;
+height: 155px;
+background: #5688AB;
+position: relative;
+margin:0 auto;
+}
+.octagon .teksnya{
+color: white;
+padding-top : 15%;
+margin: 10%;
+text-align: justify;
+}
+.octagon:before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+border-bottom: 20px solid #5688AB;
+border-left: 20px solid azure;
+border-right: 20px solid azure;
+width: 80%;
+height: 0;
+}
+
+
+.octagon :after {
+content: "";
+position :  absolute;
+bottom : 0;
+left: 0;
+border-top: 20px solid #5688A8;
+border-left: 20px solid azure;
+border-right: 20px solid azure;
+width: 80%;
+height : 0;
+}
